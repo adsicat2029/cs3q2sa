@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Stack+Sans+Text);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Cal+Sans);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Manrope);
+@import url(https://fonts.googleapis.com/css?family=Playwrite+Cuba);
+
+header{
+  background-color: #FCB53B;
+  color: white;
+  font-family: 'Stack Sans Text';
+  font-size: 45pt;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+body{
+background-image: url('https://shoestringdiary.wordpress.com/wp-content/uploads/2019/12/paliton-beach12shoestring.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  max-height: 800px;
+  
+}
+
+.mainheading{
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    font-weight: 300;
+}
+
+p{
+  font-family: 'Stack Sans Text';
+  
+}
+
+.navbar{
+  background-color: black;
+}
+.nav-link{
+  font-family:'Stack Sans Text';
+  font-weight: 900; 
+}
+
+.btn{
+  background-color: #9E8A02;
+  
+ }
+
+
+ .bigtext .btn{
+  background-color: #9E8A02;
+  font-family: 'Manrope';
+    font-size: 30px;
+    font-weight: 900;
+ }
+.nav1{
+    height: 30%;
+    width: 100%;
+}
+
+.introsbutton{
+  background-color: #9E8A02;
+  font-family: 'Manrope';
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.nav2{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    gap: 20px;
+}
+
+ .bigdiv{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+ }
+
+ .bigtext{
+    background-color: rgba(0, 0, 0, 0.732);
+    height: 100%;
+    width: 100%;
+  }
+
+  .bigtext h1{
+    font-weight: 400 !important;
+    font-size: 40pt !important;
+  }
+  @media (max-height: 1180){
+    .bigtext{
+      height: 100vh;
+    }
+  }
+
+ .bigtext h1{
+    font-family: 'Poppins';
+     font-size: 40pt;
+     font-weight: 900;
+    text-shadow: 3px 1px 4px #000000;
+    color: white;
+ }
+
+ 
+ .bigtext p{
+    font-family: 'Poppins';
+     font-size: 25pt;
+     font-weight: 100;
+    text-shadow: 3px 1px 4px #000000;
+    color: white;
+ }
+
+ .maindescription{
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 1px 4px #000000;
+
+ }
+
+ 
+
+ .btn:hover {
+  background-color: #9E8A02 !important;  /* Red background on hover */
+  border-color: #000000 !important; /* Red border on hover */
+}
+
+.headbutton:hover {
+  background-color: #9E8A02 !important;  /* Red background on hover */
+  border-color: #000000 !important; /* Red border on hover */
+}
+ .margindiv{
+  margin-top: 10px;
+ }
+ 
+
+
+header * {
+  font-size: 28px !important;
+}
+
+header h1 {
+  font-size: 80px !important;  
+}
